@@ -16,6 +16,13 @@ public class Starter {
         Tier adler2 = new Adler("Adler2");
         adler2.print();
 
+        // Aufgabe 2c: Fragen zur Vererbung
+        // 1. Ein Adler-Objekt enthält das name-Feld aus Tier.
+        // 2. Nein, name ist private. Zugriff geht über getName() und setName().
+        // 3. Die überschriebene print() Methode von Adler wird aufgerufen.
+        // 4. Nicht direkt von Starter aus. Innerhalb von Adler
+        // kann man mit super.print() die Methode von Tier aufrufen.
+
         ArrayList<Tier> tierListe = new ArrayList<>();
         tierListe.add(tier);
         tierListe.add(tier2);
@@ -29,7 +36,6 @@ public class Starter {
         for (Tier tierInListe : tierListe) {
             tierInListe.print();
         }
-
     }
 
 }

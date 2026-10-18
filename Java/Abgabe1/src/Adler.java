@@ -6,7 +6,7 @@ public class Adler extends Tier {
 
     @Override
     public void print() {
-        System.out.println("Adler: Ich heisse " + getName());
+        System.out.println("print() der Klasse Adler. Mein Name ist " + getName());
     }
 
 }

@@ -14,6 +14,6 @@ public class Tier {
     }
 
     public void print() {
-        System.out.println("Tier: Ich heisse " + getName());
+        System.out.println("print() der Klasse Tier. Mein Name ist " + getName());
     }
 }
